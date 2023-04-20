@@ -1,0 +1,151 @@
+/* DEFAULT */
+*   {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body    {
+    background-color: #EDF1D6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* PRINCIPAL */
+
+.hide   {
+    display: none !important;
+}
+
+#container-clima    {
+    float: left;
+    margin: 1rem;
+}
+
+#container-spotify  {
+    float: right;
+    margin: 1rem;
+}
+
+#container-estilo    {
+    background-color: #9dc08b;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 2rem;
+    color: #fdfdfd;
+    border-radius: 1rem;
+}
+
+.form h3 {
+    margin-bottom: 1rem;
+}
+
+.container-form-input {
+    display: flex;
+}
+
+.form input {
+    padding: .3rem;
+    border: none;
+    flex: 1;
+    border-radius: 4px;
+}
+
+.form button    {
+    padding: .3em;
+    min-width: 30px;
+    margin-left: 8px;
+    background-color: #609966;
+    color: #fdfdfd;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#weather-data   {
+    margin-top: 1.5em;
+    padding-top: 1.5em;
+    border-top: 1px solid #fdfdfd;
+    text-align: center;
+}
+
+#weather-data h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.6rem;
+}
+
+#weather-data h2 i   {
+    font-size: 1em;
+}
+
+#weather-data span   {
+    margin: .6rem;
+}
+
+#weather-icon   {
+    height: 50px;
+}
+
+#container-description  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .6rem 0;
+    font-size: 1em;
+}
+
+#details-container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#details-container #humidity {
+    border-right: 1px solid #fdfdfd;
+    margin: 0.6rem;
+    padding: 0.4rem;
+}
+
+#description    {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#temperature    {
+    font-size: 4em;
+}
+
+#error-message  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9dc08b;
+    border-radius: 1rem;
+    margin-top: 2em;
+    padding: 10px;
+}
+
+#error-message p {
+    font-weight: bold;
+    color: #fdfdfd;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#loader {
+    display: flex;
+    justify-content: center;
+    background-color: #9dc08b;
+    border-radius: 1rem;
+    margin-top: 2em;
+    padding: 10px;
+}
+
+#loader i   {
+    color: #fdfdfd;
+    font-size: 2em;
+}
